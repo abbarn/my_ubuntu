@@ -1,0 +1,20 @@
+% Write here some new useful commands for your TeX document following the command
+% \newcomand{\name_of_the_command}[ Amount of Parameters ]{ What you want the command to do and call Parameter n {#n} }
+\newcommand*{\fullref}[1]{\hyperref[{#1}]{\autoref*{#1} -- \nameref*{#1}}} % One single link
+
+\newcommand{\eq}[1]{Eq.~(\ref{#1})}
+\newcommand{\eqs}[1]{Eqs.~(\ref{#1})}
+\newcommand{\fig}{Fig.~\ref}
+\newcommand{\figs}{Figs.~\ref}
+\newcommand{\tab}{Table~\ref}
+\newcommand{\sect}{Section~\ref}
+\newcommand{\chap}{Chapter~\ref}
+\newcommand{\chaps}{Chapters~\ref}
+\newcommand{\app}{Appendix~\ref}
+\newcommand{\apps}{Appendices~\ref}
+
+\newcommand{\etal}{et~al.}
+
+\newcommand{\der}[2]{\frac{d #1}{d #2}}
+\newcommand{\pder}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\pdern}[3]{\frac{\partial^#3 #1}{\partial #2^#3}}

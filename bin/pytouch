@@ -1,0 +1,17 @@
+#!/bin/bash
+
+FILENAME=$1;
+# This command create a new python file named as 'name'
+# with a classical introduction
+
+touch ${FILENAME}.py
+
+echo -e '# *-* coding: utf-8 *-*\n'>${FILENAME}.py
+echo '"""'>>${FILENAME}.py
+(echo -n 'Created on '; date -u)>>${FILENAME}.py
+echo ''>>${FILENAME}.py
+echo '@author: vekemans'>>${FILENAME}.py
+echo ''>>${FILENAME}.py
+echo '"""'>>${FILENAME}.py
+
+subl ${FILENAME}.py

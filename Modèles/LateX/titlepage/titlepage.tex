@@ -1,0 +1,35 @@
+\newcommand{\mytitlepage}[4]{
+    \begin{center}
+
+        {\scshape {\LARGE Université catholique de Louvain }}
+
+        \vfill
+        \includegraphics[scale=.4]{titlepage/ucl.jpg}
+        \hspace{1cm}
+        \includegraphics[scale=.4]{titlepage/EPL.jpg}
+
+        \vfill\vfill
+
+        \rule[1\baselineskip]{\textwidth}{1.5pt}
+        {\LARGE { \mdseries #1 }}
+
+        \vspace{2\baselineskip}
+        {\LARGE { \bfseries  #2 }}
+        \rule[-1\baselineskip]{\textwidth}{1.5pt}
+
+        \vfill
+        
+        \large {
+            \begin{tabular}{rccr}
+                Student(s) \quad -- #3
+                \\
+                Teacher(s) \quad -- #4
+            \end{tabular}
+        }
+
+        \vfill\vfill
+        
+        {\scshape {\large 2020 -- 2021 }}
+
+    \end{center}
+}

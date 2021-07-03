@@ -1,0 +1,23 @@
+FILENAME:=main
+
+# Default target executed when no arguments are given to make.
+default_target: all
+
+.PHONY : default_target
+
+all :
+	pdflatex ${FILENAME}.tex
+	bibtex ${FILENAME}||true
+	pdflatex ${FILENAME}.tex
+	evince ${FILENAME}.pdf &
+
+read:
+	evince ${FILENAME}.pdf &
+
+clean:
+	rm -rf *.aux *.bbl *.blg *.dvi *.log *.nav *.out *.ps *.snm *.toc
+	rm -f ${FILENAME}.pdf
+
+mostly_clean:
+	rm -rf *.aux *.bbl *.blg *.dvi *.log *.nav *.out *.ps *.snm *.toc
+

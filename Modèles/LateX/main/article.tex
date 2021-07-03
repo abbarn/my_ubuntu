@@ -1,0 +1,40 @@
+\input{settings/settings.tex}
+\input{settings/commands.tex}
+
+\input{titlepage/titlepage.tex}
+
+\lhead{} %Organisation
+\rhead{} %Month. Year
+\chead{} %Title
+\cfoot{\thepage}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\setlength{\headheight}{25.5pt}
+
+\graphicspath{{../figs/}} % Setting the graphicspath
+
+\makenomenclature
+
+\begin{document}
+
+\begin{titlepage}
+	\mytitlepage{}{}{
+		& \textsc{} &  & () \\
+	}{
+		& \textsc{} &  & \\
+	}
+	% 1. Title
+	% 2. Subtitle
+	% 3. Students : & \textsc{Name} & Firstname & (NOMA) \\
+	% 4. Professors : & \textsc{Name} & Firstname & \\
+\end{titlepage}
+
+\tableofcontents
+
+\input{settings/nomencl.tex}
+\printnomenclature
+
+\printbibliography{biblio}
+
+\end{document}

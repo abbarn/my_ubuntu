@@ -1,0 +1,88 @@
+#!/bin/bash
+
+TEXPATH=~/Modèles/LateX
+
+function usage {
+	echo "Utilisation : textouch [OPTION]... DOSSIER...
+Mettre à jour la date d'accès et de modification de DOSSIER/main.tex à l'heure actuelle.
+
+Un élément DOSSIER/main.tex n'existant pas est créer vide, de même que le projet TeX permettant de le compiler.
+
+Si aucun DOSSIER n'est spécifié, le dossier courant sera considéré.
+
+  -a			crée un projet 'article'
+  -p			crée un projet 'présentation'
+  -h			imprime ce message
+
+Par défault, un projet 'article' sera créé. Les Modèles de projets sont stockés dans le dossier ${TEXPATH}"
+	exit 1
+}
+
+# On lit les options et on assigne le type de projet
+optstring=":hap"
+NO_OPTS=0;
+while getopts ${optstring} arg; do
+	case ${arg} in
+		h)	usage;;
+		a)	PROJECT="article";;
+		p)	PROJECT="presentation";;
+		:)	PROJECT="article"; NO_OPTS=1;;
+		?)	echo "You entered an invalid options: -${OPTARG}"
+			exit 0;;
+	esac
+done
+
+# On vérifie si le dossier spécifié existe.
+# S'il n'existe pas, il est créé.
+# Si aucun dossier n'est spécifié, on reste dans le dossier courant.
+if [ $NO_OPTS == 1 ]; then
+	DOSSIER=$1
+else
+	DOSSIER=$2
+fi
+DOSSIER=${DOSSIER/%\/}
+
+if [ -n "$DOSSIER" ]; then
+	if [ -z "$(find . -name "$DOSSIER")" ]; then
+		mkdir ${DOSSIER}
+	fi
+	cd ${DOSSIER}
+fi
+
+# On vérifie s'il existe un fichier main.tex dans le dossier où on se trouve.
+# Si oui, on modifie la date et l'heure d'accès et on quitte le programme.
+LIST=($(find . -name main.tex)); LEN=${#LIST[@]}; EXIST=0
+for (( i=0; i<$LEN; i++ )); do
+	if [ ${LIST[$i]} == "./main.tex" ]; then EXIST=1; fi
+done
+
+if [ $EXIST == 1 ]; then
+	echo "Modifier la date et l'heure d'accès au document -- A FAIRE !"
+	exit 0;
+fi
+
+# On vérifie qu'un dossier ./settings ne soit pas déjà créer, auquel cas on y ajoutera nos fichiers. Sinon, on le crée.
+LIST=($(find . -name settings)); LEN=${#LIST[@]}; EXIST=0
+for (( i=0; i<$LEN; i++ )); do
+	if [ ${LIST[$i]} == "./settings" ]; then EXIST=1; fi
+done
+
+if [ $EXIST == 0 ]; then
+	mkdir settings
+fi
+
+# On crée le projet en transposant les fichiers du dossier $TEXPATH au dossier spécifié
+cp ${TEXPATH}/main/${PROJECT}.tex ./main.tex
+cp ${TEXPATH}/settings/${PROJECT}.tex ./settings/settings.tex
+cp ${TEXPATH}/commands.tex ./settings/
+if [ "$PROJECT" != "presentation" ]; then
+	cp ${TEXPATH}/nomencl.tex ./settings/nomencl.tex
+fi
+
+cp ${TEXPATH}/make/${PROJECT} ./Makefile
+
+cp -r ${TEXPATH}/titlepage/ .
+cp ${TEXPATH}/biblio.bib .
+
+subl . &
+
