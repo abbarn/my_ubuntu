@@ -1,3 +1,4 @@
+# Visible
 Bureau
 Documents
 Images
@@ -5,3 +6,10 @@ Musique
 Public
 Téléchargements
 Vidéos
+
+# Invisible
+.cache
+.gnupg
+.local
+.thunderbird
+.mozilla
