@@ -8,9 +8,19 @@ Téléchargements
 Vidéos
 
 # Invisible
+.bash_history
+.bash_logout
+.bash_rc
 .cache
+.gconf
 .gnupg
 .local
-.thunderbird
 .mozilla
+.pki
 .ssh
+.steam
+.thunderbird
+
+.gitconfig
+.profile
+.sudo_as_admin_successful
