@@ -7,18 +7,18 @@ sudo apt-get install vim
 sudo apt-get install python3
 
 # Medias
-snap install spotify
-snap install vlc
+sudo snap install spotify
+sudo snap install vlc
 # Messages
-snap install caprine
-snap install telegram
-snap install discord
-snap install teams
-snap install whats-app
+sudo snap install caprine
+sudo snap install telegram-desktop
+sudo snap install discord
+sudo snap install teams
+sudo snap install whatsapp-for-linux
 
 # Kde-Connect
 sudo add-apt-repository ppa:webupd8team/indicator-kdeconnect
-sudo apt install kdeconnect indicator-kdeconnect
+sudo apt install indicator-kdeconnect kdeconnect
 
 # Steam
 sudo apt install steam
@@ -27,12 +27,14 @@ sudo apt install steam
 sudo apt install libcanberra-gtk-module libgconf-2-4 libatomic1
 sudo mkdir /opt/popcorntime
 wget -P $HOME "https://dl.popcorn-time.tw/Popcorn-Time-linux64.tar.xz"
-sudo tar -xf Popcorn-Time-0.4.4-linux64.tar.xz -d /opt/popcorntime
+sudo tar -C /opt/popcorntime -xvf Popcorn-Time-linux64.tar.xz
 sudo ln -sf /opt/popcorntime/Popcorn-Time /usr/bin/Popcorn-Time
 sudo nano /usr/share/applications/popcorntime.desktop
 sudo wget -O /opt/popcorntime/popcorn.png https://upload.wikimedia.org/wikipedia/commons/d/df/Pctlogo.png
-rm -rf Popcorn-Time-0.4.4-linux64.tar.xz
 
 # Latex
 sudo apt-get install texlive
 cd texmf && mktexlsr
+
+# Clean directory
+rm -rf *.zip *.tar *.tar.xz *.deb

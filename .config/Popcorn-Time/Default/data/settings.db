@@ -1,0 +1,11 @@
+{"key":"arch","value":"x64","_id":"A1dPsBiMMmtdf8Kd"}
+{"key":"os","value":"linux","_id":"CkNtQLpYNcF43I8Y"}
+{"key":"disclaimerAccepted","value":1,"_id":"KoHlIxHiZRYCc3cG"}
+{"key":"version","value":"0.3.10","_id":"NVASeOUo86bfdv82"}
+{"key":"releaseName","value":"Popcorn is Love","_id":"QK6pNW7fPawKa2Pp"}
+{"key":"language","value":"fr","_id":"TEYEcJ0VeM2lQTC2"}
+{"$$indexCreated":{"fieldName":"key","unique":true,"sparse":false}}
+{"key":"version","value":"0.3.10","_id":"NVASeOUo86bfdv82"}
+{"key":"releaseName","value":"Popcorn is Love","_id":"QK6pNW7fPawKa2Pp"}
+{"key":"arch","value":"x64","_id":"A1dPsBiMMmtdf8Kd"}
+{"key":"os","value":"linux","_id":"CkNtQLpYNcF43I8Y"}

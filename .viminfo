@@ -1,0 +1,90 @@
+# Ce fichier viminfo a été généré par Vim 8.1.
+# Vous pouvez l'éditer, mais soyez prudent.
+
+# Viminfo version
+|1,4
+
+# 'encoding' dans lequel ce fichier a été écrit
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Historique ligne de commande (chronologie décroissante) :
+:x
+|2,0,1625403478,,"x"
+
+# Historique chaîne de recherche (chronologie décroissante) :
+
+# Historique expression (chronologie décroissante) :
+
+# Historique ligne de saisie (chronologie décroissante) :
+
+# Historique Ligne de débogage (chronologie décroissante) :
+
+# Registres :
+
+# Marques dans le fichier :
+'0  26  24  ~/.gitignore
+|4,48,26,24,1625403478,"~/.gitignore"
+'1  1  10  ~/bin/clean_install
+|4,49,1,10,1625403013,"~/bin/clean_install"
+'2  20  3  ~/.gitignore
+|4,50,20,3,1625401847,"~/.gitignore"
+'3  16  3  ~/.gitignore
+|4,51,16,3,1625401847,"~/.gitignore"
+'4  1  10  ~/bin/clean_install
+|4,52,1,10,1625345838,"~/bin/clean_install"
+
+# Liste de sauts (le plus récent en premier) :
+-'  26  24  ~/.gitignore
+|4,39,26,24,1625403478,"~/.gitignore"
+-'  20  3  ~/.gitignore
+|4,39,20,3,1625403302,"~/.gitignore"
+-'  1  10  ~/bin/clean_install
+|4,39,1,10,1625403013,"~/bin/clean_install"
+-'  1  10  ~/bin/clean_install
+|4,39,1,10,1625403013,"~/bin/clean_install"
+-'  16  3  ~/.gitignore
+|4,39,16,3,1625401847,"~/.gitignore"
+-'  16  3  ~/.gitignore
+|4,39,16,3,1625401847,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1625401830,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1625401830,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1625401830,"~/.gitignore"
+-'  1  10  ~/bin/clean_install
+|4,39,1,10,1625345838,"~/bin/clean_install"
+-'  1  10  ~/bin/clean_install
+|4,39,1,10,1625345838,"~/bin/clean_install"
+-'  1  10  ~/bin/clean_install
+|4,39,1,10,1625345838,"~/bin/clean_install"
+-'  1  10  ~/bin/clean_install
+|4,39,1,10,1625345838,"~/bin/clean_install"
+
+# Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/.gitignore
+	*	1625403477	0
+	"	26	24
+	^	26	25
+	.	26	25
+	+	20	3
+	+	23	0
+	+	25	7
+	+	23	0
+	+	19	3
+	+	18	0
+	+	22	12
+	+	13	7
+	+	17	0
+	+	15	5
+	+	22	0
+	+	24	0
+	+	26	25
+
+> ~/bin/clean_install
+	*	1625402622	0
+	"	1	10
