@@ -1,11 +1,21 @@
-2021/07/03-23:08:57.926 28414 Reusing MANIFEST /home/gregoirev/.config/Popcorn-Time/Default/IndexedDB/chrome-extension_hecfofbbdfadifpemejbbdcjmfmboohj_0.indexeddb.leveldb/MANIFEST-000001
-2021/07/03-23:08:57.926 28414 Recovering log #6
-2021/07/03-23:08:57.927 28414 Reusing old log /home/gregoirev/.config/Popcorn-Time/Default/IndexedDB/chrome-extension_hecfofbbdfadifpemejbbdcjmfmboohj_0.indexeddb.leveldb/000006.log 
-2021/07/03-23:09:14.852 28414 Current memtable full; waiting...
-2021/07/03-23:09:14.852 28487 Level-0 table #10: started
-2021/07/03-23:09:14.855 28487 Level-0 table #10: 625 bytes OK
-2021/07/03-23:09:14.860 28487 Delete type=0 #6
-2021/07/03-23:09:14.860 28487 Level-0 table #12: started
-2021/07/03-23:09:14.860 28487 Level-0 table #12: 0 bytes OK
-2021/07/03-23:09:14.976 28487 Delete type=0 #9
-2021/07/03-23:09:14.976 28487 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2021/07/07-16:56:26.069 13713 Reusing MANIFEST /home/gregoirev/.config/Popcorn-Time/Default/IndexedDB/chrome-extension_hecfofbbdfadifpemejbbdcjmfmboohj_0.indexeddb.leveldb/MANIFEST-000001
+2021/07/07-16:56:26.070 13713 Recovering log #19
+2021/07/07-16:56:26.070 13713 Reusing old log /home/gregoirev/.config/Popcorn-Time/Default/IndexedDB/chrome-extension_hecfofbbdfadifpemejbbdcjmfmboohj_0.indexeddb.leveldb/000019.log 
+2021/07/07-16:56:26.070 13713 Delete type=0 #17
+2021/07/07-16:58:19.043 13713 Current memtable full; waiting...
+2021/07/07-16:58:19.043 13898 Level-0 table #23: started
+2021/07/07-16:58:19.045 13898 Level-0 table #23: 624 bytes OK
+2021/07/07-16:58:19.048 13898 Delete type=0 #19
+2021/07/07-16:58:19.048 13898 Level-0 table #25: started
+2021/07/07-16:58:19.048 13898 Level-0 table #25: 0 bytes OK
+2021/07/07-16:58:19.050 13898 Delete type=0 #22
+2021/07/07-16:58:19.050 13898 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\xc8\x08\x00m\x00e\x00t\x00a\x00d\x00a\x00t\x00a' @ 77 : 1
+2021/07/07-16:58:19.050 13898 Compacting 3@0 + 1@1 files
+2021/07/07-16:58:19.053 13898 Generated table #26@0: 3 keys, 447 bytes
+2021/07/07-16:58:19.053 13898 Compacted 3@0 + 1@1 files => 447 bytes
+2021/07/07-16:58:19.058 13898 compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/07/07-16:58:19.058 13898 Delete type=2 #23
+2021/07/07-16:58:19.058 13898 Delete type=2 #18
+2021/07/07-16:58:19.058 13898 Delete type=2 #10
+2021/07/07-16:58:19.058 13898 Delete type=2 #15
+2021/07/07-16:58:19.058 13898 Manual compaction at level-0 from '\x00\x03\x00\x00\xc8\x08\x00m\x00e\x00t\x00a\x00d\x00a\x00t\x00a' @ 77 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)

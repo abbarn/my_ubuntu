@@ -1,2 +1,3 @@
 [Added Associations]
 application/x-shellscript=org.gnome.gedit.desktop;
+image/png=shotwell-viewer.desktop;

@@ -25,3 +25,5 @@ fi
 if [ -d "$HOME/.local/bin" ] ; then
     PATH="$HOME/.local/bin:$PATH"
 fi
+
+# watch -n 1200 feh --randomize --bg-fill $HOME/Images/diap/*

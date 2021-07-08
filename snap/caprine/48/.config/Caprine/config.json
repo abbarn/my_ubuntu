@@ -1,15 +1,15 @@
 {
 	"followSystemAppearance": true,
-	"darkMode": false,
+	"darkMode": true,
 	"privateMode": false,
 	"showPrivateModePrompt": true,
 	"vibrancy": "none",
 	"zoomFactor": 1,
 	"lastWindowState": {
-		"x": 560,
-		"y": 327,
-		"width": 1023,
-		"height": 600,
+		"x": 960,
+		"y": 0,
+		"width": 960,
+		"height": 1080,
 		"isMaximized": false
 	},
 	"menuBarMode": false,

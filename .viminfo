@@ -10,11 +10,22 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Dernier motif de recherche  :
+~Msle0~/\<i3bar_command\>
+
 # Historique ligne de commande (chronologie décroissante) :
 :x
-|2,0,1625403478,,"x"
+|2,0,1625744572,,"x"
+:q
+|2,0,1625681165,,"q"
+:q!
+|2,0,1625681159,,"q!"
+:.,.+1!
+|2,0,1625681152,,".,.+1!"
 
 # Historique chaîne de recherche (chronologie décroissante) :
+? \<i3bar_command\>
+|2,1,1625488132,,"\\<i3bar_command\\>"
 
 # Historique expression (chronologie décroissante) :
 
@@ -25,46 +36,317 @@
 # Registres :
 
 # Marques dans le fichier :
-'0  26  24  ~/.gitignore
-|4,48,26,24,1625403478,"~/.gitignore"
-'1  1  10  ~/bin/clean_install
-|4,49,1,10,1625403013,"~/bin/clean_install"
-'2  20  3  ~/.gitignore
-|4,50,20,3,1625401847,"~/.gitignore"
-'3  16  3  ~/.gitignore
-|4,51,16,3,1625401847,"~/.gitignore"
-'4  1  10  ~/bin/clean_install
-|4,52,1,10,1625345838,"~/bin/clean_install"
+'0  197  0  ~/.config/i3/config
+|4,48,197,0,1625744572,"~/.config/i3/config"
+'1  197  51  ~/.config/i3/config
+|4,49,197,51,1625744513,"~/.config/i3/config"
+'2  200  18  ~/.config/i3/config
+|4,50,200,18,1625743660,"~/.config/i3/config"
+'3  195  18  ~/.config/i3/config
+|4,51,195,18,1625743660,"~/.config/i3/config"
+'4  200  18  ~/.config/i3/config
+|4,52,200,18,1625743660,"~/.config/i3/config"
+'5  195  18  ~/.config/i3/config
+|4,53,195,18,1625743660,"~/.config/i3/config"
+'6  192  51  ~/.config/i3/config
+|4,54,192,51,1625742712,"~/.config/i3/config"
+'7  192  51  ~/.config/i3/config
+|4,55,192,51,1625742712,"~/.config/i3/config"
+'8  192  51  ~/.config/i3/config
+|4,56,192,51,1625742712,"~/.config/i3/config"
+'9  192  51  ~/.config/i3/config
+|4,57,192,51,1625742712,"~/.config/i3/config"
 
 # Liste de sauts (le plus récent en premier) :
--'  26  24  ~/.gitignore
-|4,39,26,24,1625403478,"~/.gitignore"
--'  20  3  ~/.gitignore
-|4,39,20,3,1625403302,"~/.gitignore"
--'  1  10  ~/bin/clean_install
-|4,39,1,10,1625403013,"~/bin/clean_install"
--'  1  10  ~/bin/clean_install
-|4,39,1,10,1625403013,"~/bin/clean_install"
--'  16  3  ~/.gitignore
-|4,39,16,3,1625401847,"~/.gitignore"
--'  16  3  ~/.gitignore
-|4,39,16,3,1625401847,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1625401830,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1625401830,"~/.gitignore"
--'  1  0  ~/.gitignore
-|4,39,1,0,1625401830,"~/.gitignore"
--'  1  10  ~/bin/clean_install
-|4,39,1,10,1625345838,"~/bin/clean_install"
--'  1  10  ~/bin/clean_install
-|4,39,1,10,1625345838,"~/bin/clean_install"
--'  1  10  ~/bin/clean_install
-|4,39,1,10,1625345838,"~/bin/clean_install"
--'  1  10  ~/bin/clean_install
-|4,39,1,10,1625345838,"~/bin/clean_install"
+-'  197  0  ~/.config/i3/config
+|4,39,197,0,1625744572,"~/.config/i3/config"
+-'  197  51  ~/.config/i3/config
+|4,39,197,51,1625744513,"~/.config/i3/config"
+-'  200  18  ~/.config/i3/config
+|4,39,200,18,1625744389,"~/.config/i3/config"
+-'  200  18  ~/.config/i3/config
+|4,39,200,18,1625744389,"~/.config/i3/config"
+-'  195  18  ~/.config/i3/config
+|4,39,195,18,1625743660,"~/.config/i3/config"
+-'  195  18  ~/.config/i3/config
+|4,39,195,18,1625743660,"~/.config/i3/config"
+-'  192  51  ~/.config/i3/config
+|4,39,192,51,1625743608,"~/.config/i3/config"
+-'  192  51  ~/.config/i3/config
+|4,39,192,51,1625743608,"~/.config/i3/config"
+-'  192  51  ~/.config/i3/config
+|4,39,192,51,1625743608,"~/.config/i3/config"
+-'  192  51  ~/.config/i3/config
+|4,39,192,51,1625742712,"~/.config/i3/config"
+-'  191  37  ~/.config/i3/config
+|4,39,191,37,1625742703,"~/.config/i3/config"
+-'  191  37  ~/.config/i3/config
+|4,39,191,37,1625742703,"~/.config/i3/config"
+-'  191  37  ~/.config/i3/config
+|4,39,191,37,1625742703,"~/.config/i3/config"
+-'  191  37  ~/.config/i3/config
+|4,39,191,37,1625742703,"~/.config/i3/config"
+-'  191  37  ~/.config/i3/config
+|4,39,191,37,1625742597,"~/.config/i3/config"
+-'  34  86  ~/.config/i3/config
+|4,39,34,86,1625742561,"~/.config/i3/config"
+-'  34  86  ~/.config/i3/config
+|4,39,34,86,1625742561,"~/.config/i3/config"
+-'  34  86  ~/.config/i3/config
+|4,39,34,86,1625742561,"~/.config/i3/config"
+-'  34  86  ~/.config/i3/config
+|4,39,34,86,1625742561,"~/.config/i3/config"
+-'  34  86  ~/.config/i3/config
+|4,39,34,86,1625742561,"~/.config/i3/config"
+-'  34  86  ~/.config/i3/config
+|4,39,34,86,1625681306,"~/.config/i3/config"
+-'  39  80  ~/.config/i3/config
+|4,39,39,80,1625681284,"~/.config/i3/config"
+-'  39  80  ~/.config/i3/config
+|4,39,39,80,1625681284,"~/.config/i3/config"
+-'  39  80  ~/.config/i3/config
+|4,39,39,80,1625681284,"~/.config/i3/config"
+-'  39  80  ~/.config/i3/config
+|4,39,39,80,1625681284,"~/.config/i3/config"
+-'  39  80  ~/.config/i3/config
+|4,39,39,80,1625681284,"~/.config/i3/config"
+-'  39  80  ~/.config/i3/config
+|4,39,39,80,1625681284,"~/.config/i3/config"
+-'  39  80  ~/.config/i3/config
+|4,39,39,80,1625681165,"~/.config/i3/config"
+-'  39  80  ~/.config/i3/config
+|4,39,39,80,1625681159,"~/.config/i3/config"
+-'  191  0  ~/.config/i3/config
+|4,39,191,0,1625681085,"~/.config/i3/config"
+-'  191  0  ~/.config/i3/config
+|4,39,191,0,1625681085,"~/.config/i3/config"
+-'  191  0  ~/.config/i3/config
+|4,39,191,0,1625681085,"~/.config/i3/config"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
+-'  1  0  ~/biblio.bib
+|4,39,1,0,1625668686,"~/biblio.bib"
 
 # Historique des marques dans les fichiers (les plus récentes en premier) :
+
+> ~/.config/i3/config
+	*	1625744571	0
+	"	197	0
+	^	197	1
+	.	197	0
+	+	37	1
+	+	39	62
+	+	227	59
+	+	204	0
+	+	199	17
+	+	222	0
+	+	220	0
+	+	219	8
+	+	217	0
+	+	216	8
+	+	215	0
+	+	214	8
+	+	213	0
+	+	212	8
+	+	211	0
+	+	210	8
+	+	209	0
+	+	207	0
+	+	206	0
+	+	205	0
+	+	206	0
+	+	205	1
+	+	207	1
+	+	209	1
+	+	210	1
+	+	211	1
+	+	212	1
+	+	213	1
+	+	214	0
+	+	215	1
+	+	216	1
+	+	218	1
+	+	217	0
+	+	219	1
+	+	220	0
+	+	222	2
+	+	33	86
+	+	33	0
+	+	191	42
+	+	192	44
+	+	39	83
+	+	34	86
+	+	191	42
+	+	192	39
+	+	191	49
+	+	192	51
+	+	201	0
+	+	194	13
+	+	197	34
+	+	196	38
+	+	197	0
+
+> ~/biblio.bib
+	*	1625668677	0
+	"	1	0
+
+> ~/.thunderbird/profiles.ini
+	*	1625668493	0
+	"	1	0
+
+> ~/bin/wallpaper
+	*	1625495174	0
+	"	15	14
+	^	15	15
+	.	15	15
+	+	5	53
+	+	6	0
+	+	5	53
+	+	9	6
+	+	19	3
+	+	18	1
+	+	19	3
+	+	15	15
+
+> ~/.profile
+	*	1625485413	0
+	"	18	0
+	^	29	2
+	.	29	1
+	+	28	0
+	+	29	1
 
 > ~/.gitignore
 	*	1625403477	0

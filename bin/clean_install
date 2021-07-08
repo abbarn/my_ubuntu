@@ -5,6 +5,7 @@ sudo apt-get update
 
 sudo apt-get install vim
 sudo apt-get install python3
+sudo apt-get install make
 
 # Medias
 sudo snap install spotify
@@ -35,6 +36,12 @@ sudo wget -O /opt/popcorntime/popcorn.png https://upload.wikimedia.org/wikipedia
 # Latex
 sudo apt-get install texlive
 cd texmf && mktexlsr
+
+# i3 window manager
+wget https://debian.sur5r.net/i3/pool/main/s/sur5r-keyring/sur5r-keyring_2021.02.02_all.deb
+sudo dpkg -i sur5r-keyring_2021.02.02_all.deb
+echo "deb [arch=amd64] https://debian.sur5r.net/i3/ $(grep '^DISTRIB_CODENAME=' /etc/lsb-release | cut -f2 -d=) universe" > /etc/apt/sources.list.d/sur5r-i3.list
+sudo apt-get update && sudo apt install i3
 
 # Clean directory
 rm -rf *.zip *.tar *.tar.xz *.deb
